@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.userposts"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/mac/RNProjects/UserPosts/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/mac/RNProjects/UserPosts/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+13-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:5:5-97
+13-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:5:22-95
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:7:5-78
+15-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:7:22-76
+16
+17    <permission
+17-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:8:5-10:48
+18        android:name="com.foodfinder.permission.MAPS_RECEIVE"
+18-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:9:11-64
+19        android:protectionLevel="signature" />
+19-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:10:11-46
+20
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+21-->[com.facebook.flipper:flipper:0.54.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:5-76
+21-->[com.facebook.flipper:flipper:0.54.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1c7787ec82631e0394972c76bdabe608/flipper-0.54.0/AndroidManifest.xml:16:22-73
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:12:5-34:19
+29        android:name="com.userposts.MainApplication"
+29-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:13:7-38
+30        android:allowBackup="false"
+30-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:17:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:15:7-41
+34        android:label="@string/app_name"
+34-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:14:7-39
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:16:7-52
+36        android:theme="@style/AppTheme"
+36-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:18:7-38
+37        android:usesCleartextTraffic="true" >
+37-->/Users/mac/RNProjects/UserPosts/android/app/src/debug/AndroidManifest.xml:7:18-53
+38        <meta-data
+38-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:19:8-21:64
+39            android:name="com.google.android.geo.API_KEY"
+39-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:20:7-52
+40            android:value="AIzaSyAuQEFY0l9ed_HZqG3PwVBqQC3qPf2sPTI" />
+40-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:21:7-62
+41
+42        <activity
+42-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:22:7-32:18
+43            android:name="com.userposts.MainActivity"
+43-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:23:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+44-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:25:9-86
+45            android:label="@string/app_name"
+45-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:24:9-41
+46            android:launchMode="singleTask"
+46-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:26:9-40
+47            android:windowSoftInputMode="adjustResize" >
+47-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:27:9-51
+48            <intent-filter>
+48-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:28:9-31:25
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:29:13-65
+49-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:29:21-62
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:30:13-73
+51-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:30:23-70
+52            </intent-filter>
+53        </activity>
+54        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" /> <!-- Needs to be explicitly declared on P+ -->
+54-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:33:7-84
+54-->/Users/mac/RNProjects/UserPosts/android/app/src/main/AndroidManifest.xml:33:17-81
+55        <uses-library
+55-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+56            android:name="org.apache.http.legacy"
+56-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+57            android:required="false" />
+57-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3ca81724f46a1af5d268488a528eb8e5/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1e88984b3046f13ea16e411c7602df03/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1e88984b3046f13ea16e411c7602df03/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1e88984b3046f13ea16e411c7602df03/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+67    </application>
+68
+69</manifest>
