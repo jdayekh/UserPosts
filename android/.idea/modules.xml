@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UserPosts.iml" filepath="$PROJECT_DIR$/.idea/modules/UserPosts.iml" group="UserPosts" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="UserPosts/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/918451729/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/918451729/react-native-community_masked-view.iml" group="UserPosts/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-198668314/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-198668314/react-native-gesture-handler.iml" group="UserPosts/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-842420819/react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/-842420819/react-native-maps.iml" group="UserPosts/react-native-maps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1290320177/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1290320177/react-native-safe-area-context.iml" group="UserPosts/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-108589657/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-108589657/react-native-screens.iml" group="UserPosts/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1867776432/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1867776432/react-native-vector-icons.iml" group="UserPosts/react-native-vector-icons" />
+    </modules>
+  </component>
+</project>
